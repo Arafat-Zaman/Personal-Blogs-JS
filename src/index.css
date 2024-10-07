@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+   h1{
+@apply  text-5xl
+  }
+   h2{
+@apply  text-3xl
+  }
+   h3{
+@apply  text-2xl
+  }
+  body {
+    font-family: 'Permanent Marker', cursive;
+  }
+}
+
+@layer components{
+  .margin{
+    @apply m-2
+  }
+  
+}
